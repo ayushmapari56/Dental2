@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bright Smile Dental — Bespoke Oral Health Studio | Tribeca, New York</title>
+<!-- Tailwind CSS CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            alabaster: '#FBFBF9',
+            stonecream: '#F5F3EF',
+            noir: '#122B26',
+            forest: {
+              800: '#15332D',
+              900: '#0E221E',
+              950: '#081714',
+            },
+            champagne: {
+              300: '#E6D7C3',
+              400: '#D5C1A7',
+              500: '#C5A880',
+              600: '#AB8E65',
+            }
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    /* Custom sleek scrollbar & smooth polish */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F5F3EF;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C5A880;
+      border-radius: 9999px;
+    }
+    .text-balance {
+      text-wrap: balance;
+    }
+    .editorial-shadow {
+      box-shadow: 0 20px 45px -15px rgba(18, 43, 38, 0.08), 0 0 0 1px rgba(18, 43, 38, 0.05);
+    }
+    .hud-glass {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+  </style>
+</head>
+<body class="bg-alabaster text-stone-800 font-sans antialiased selection:bg-champagne-300 selection:text-forest-950">
+<!-- ================= TOP LUXURY BANNER ================= -->
+<div class="bg-noir text-champagne-300 text-[11px] tracking-widest uppercase font-medium py-2 px-4 border-b border-forest-800/60">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+<span class="text-stone-300 font-sans tracking-wider">Tribeca Flagship Studio • Accepting Select New Private Patients</span>
+</div>
+<div class="hidden sm:flex items-center gap-6 text-[10px] tracking-wider text-stone-300">
+<span class="hover:text-white transition-colors cursor-pointer">Private Suites</span>
+<span>•</span>
+<span class="hover:text-white transition-colors cursor-pointer">Bespoke Sedation</span>
+<span>•</span>
+<a class="text-champagne-400 font-semibold hover:text-white transition-colors" href="tel:18005553284">Emergency Direct: (800) 555-3284</a>
+</div>
+</div>
+</div>
+<!-- ================= NAVIGATION ================= -->
+<header class="sticky top-0 z-40 bg-alabaster/90 backdrop-blur-md border-b border-stone-200/70 transition-all">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+<!-- Brandmark -->
+<a class="flex items-center gap-3.5 group" href="#">
+<div class="w-10 h-10 rounded-full bg-noir text-champagne-400 flex items-center justify-center border border-champagne-500/30 group-hover:bg-forest-800 transition-all shadow-sm">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
+<path d="M12 2C8.5 2 6 4.5 6 8c0 3.5 1.5 8 3 13 1 1 2 1 3 0 1-3.5 1-3.5 2 0 1 1 2 1 3 0 1.5-5 3-9.5 3-13 0-3.5-2.5-6-6-6z"></path>
+<path d="M9 8c.5-1 1.5-1.5 3-1.5s2.5.5 3 1.5"></path>
+</svg>
+</div>
+<div>
+<span class="font-serif text-xl tracking-tight text-noir font-semibold block leading-none">BRIGHT SMILE</span>
+<span class="text-[10px] tracking-[0.25em] text-champagne-600 font-semibold uppercase block mt-1">Private Dental Studio</span>
+</div>
+</a>
+<!-- Center Links (Desktop) -->
+<nav class="hidden md:flex items-center gap-8 text-[13px] font-medium tracking-wide text-stone-600">
+<a class="hover:text-noir transition-colors" href="#experience">The Experience</a>
+<a class="hover:text-noir transition-colors" href="#doctor">Clinical Director</a>
+<a class="hover:text-noir transition-colors" href="#treatments">Care &amp; Menu</a>
+<a class="hover:text-noir transition-colors" href="#reviews">Transformations</a>
+</nav>
+<!-- Right Actions: Location & Reserve Button -->
+<div class="flex items-center gap-4">
+<!-- Location badge -->
+<div class="hidden lg:flex items-center gap-1.5 text-xs text-stone-500 bg-stonecream/80 px-3 py-1.5 rounded-full border border-stone-200">
+<span class="material-symbols-outlined text-[15px] text-champagne-600">location_on</span>
+<span>481 Greenwich St, Tribeca</span>
+</div>
+<a class="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-stone-700 hover:text-noir transition-colors px-2" href="tel:18005553284">
+<span class="material-symbols-outlined text-[16px] text-champagne-600">call</span>
+<span>(800) 555-3284</span>
+</a>
+<button class="bg-noir hover:bg-forest-800 text-champagne-300 hover:text-white px-5 py-2.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 shadow-sm border border-champagne-500/20 active:scale-95" onclick="scrollToReserve()">
+          Reserve Visit
+        </button>
+</div>
+</div>
+</header>
+<!-- ================= HERO SECTION (EDITORIAL SPLIT) ================= -->
+<section class="relative pt-12 pb-20 lg:pt-20 lg:pb-28 overflow-hidden bg-gradient-to-b from-alabaster via-stonecream/40 to-alabaster border-b border-stone-200/60">
+<!-- Atmospheric glows -->
+<div class="absolute -top-24 right-1/4 w-96 h-96 bg-champagne-300/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 left-0 w-80 h-80 bg-emerald-950/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Column: Editorial Narrative -->
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-stone-200 text-stone-700 shadow-xs">
+<span class="w-2 h-2 rounded-full bg-champagne-500"></span>
+<span class="text-[11px] font-semibold tracking-widest uppercase text-stone-600">Next-Generation Studio Medicine</span>
+</div>
+<h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-noir tracking-tight leading-[1.08] font-normal">
+            Dentistry re-imagined as <br class="hidden sm:inline"/>
+<span class="italic font-normal text-champagne-600">restorative self-care.</span>
+</h1>
+<p class="text-stone-600 text-base sm:text-lg leading-relaxed max-w-xl font-normal text-balance">
+            Depart from sterile waiting rooms and anxiety-inducing drills. Welcome to an architectural sanctuary where clinical mastership meets sensory hospitality and upfront, transparent clarity.
+          </p>
+<!-- 3 Value Pillars -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 pb-2">
+<div class="p-3.5 rounded-xl bg-white/70 border border-stone-200/70">
+<span class="text-champagne-600 font-serif text-lg font-bold block mb-0.5">00 min</span>
+<p class="text-xs font-semibold text-stone-800">Zero Wait Guarantee</p>
+<p class="text-[11px] text-stone-500 mt-0.5">Direct escort to your private suite upon arrival.</p>
+</div>
+<div class="p-3.5 rounded-xl bg-white/70 border border-stone-200/70">
+<span class="text-champagne-600 font-serif text-lg font-bold block mb-0.5">100%</span>
+<p class="text-xs font-semibold text-stone-800">Upfront Price Transparency</p>
+<p class="text-[11px] text-stone-500 mt-0.5">Zero surprise billing, itemized prior to care.</p>
+</div>
+<div class="p-3.5 rounded-xl bg-white/70 border border-stone-200/70">
+<span class="text-champagne-600 font-serif text-lg font-bold block mb-0.5">Top 1%</span>
+<p class="text-xs font-semibold text-stone-800">Columbia-Trained Clinicians</p>
+<p class="text-[11px] text-stone-500 mt-0.5">Aesthetic and surgical board specialists.</p>
+</div>
+</div>
+<!-- Social Proof Metric -->
+<div class="flex items-center gap-4 pt-2">
+<div class="flex -space-x-2">
+<img alt="Patient" class="w-9 h-9 rounded-full object-cover ring-2 ring-alabaster" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwfcKEkYVt2SNVKszlCLEjGchPejsiHRQSzRNd709_H4woBOpnSzQkLNGmKXNouuqhuJhj3u6tl7xjjAlKTg4Fkyznn1Q_FSuIvEKofLBhX4NQdt9anxPTnqJn3xdVKdj_DZIVHOAAZkD89iueH6_izdACR1dhIKuXGpxLHYSgT48AObic4GHYGvWFIat1kH11_Km0jMogsIw-tNamADKjEGCxnwVIJh1L6sKXu97TseQ2V26bZjou"/>
+<img alt="Patient" class="w-9 h-9 rounded-full object-cover ring-2 ring-alabaster" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjW6L01FspZPCRZnSAQYWatd413AnEdaiyRfU9KxPmdNYiYR4_B9dLURMlFD3K_W8mEIbs8J0kp7PUil5bz8WTkfOimwksSwuQBnDeG5QsZEGtuVZK5U979dBEeVJAN-fJbCileUc1uGBx_BR4ReW9m_crUeAONTixlsFQUEVk6VWLTz32ZQNhtYNbPAkoRzUJHJX_HJPeYPWC8OMTBFOIjh7whmRx0fU95ImAGrM7U7iTSbH0ywzx"/>
+<img alt="Patient" class="w-9 h-9 rounded-full object-cover ring-2 ring-alabaster" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASjM6jbhNknDCgiiLcWSCMa17QUFGDGDjM012IJ6JBkdc13gh4rGyeW9tBVPesyXmHgCQbNho8UrpkosISxaKPF-FdhxsT1KQBPABMx9XcRwkl2_CHHp0cqwlBCXgBSMZ9y1X7Q_REkBuhQQ8CZhmikwdcr82macyPduf8UydEaF3pjLNBZ7kHUgFfsXGnBq5uetjaz9HqPAUwXg6glL2_mRYV1EDwgLpL6nuZVeEHTu86YPaVnmrD"/>
+</div>
+<div>
+<div class="flex items-center gap-1 text-amber-500 text-xs">
+                ★★★★★ <span class="font-bold text-noir text-xs ml-1 font-sans">4.9 / 5.0</span>
+</div>
+<p class="text-[11px] text-stone-500">Verified by 1,420+ Tribeca, Soho &amp; Wall St patients</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Express Reservation Card -->
+<div class="lg:col-span-5" id="reservationSection">
+<div class="hud-glass p-6 sm:p-8 rounded-3xl border border-stone-200/90 editorial-shadow relative overflow-hidden">
+<div class="flex items-center justify-between pb-4 border-b border-stone-100">
+<div>
+<span class="text-[10px] font-bold uppercase tracking-widest text-champagne-600 block">Instant Concierge Booking</span>
+<h3 class="font-serif text-2xl font-semibold text-noir">Express Studio Reservation</h3>
+</div>
+<span class="w-3 h-3 rounded-full bg-emerald-500 ring-4 ring-emerald-100"></span>
+</div>
+<!-- Form Flow -->
+<form class="mt-5 space-y-4" id="expressBookingForm" onsubmit="event.preventDefault(); handleExpressSubmit();">
+<!-- Reason Selector -->
+<div>
+<label class="block text-xs font-semibold text-stone-700 mb-1.5 uppercase tracking-wider text-[10px]">1. Treatment Purpose</label>
+<div class="grid grid-cols-2 gap-2 text-xs">
+<button class="treatment-pill text-left px-3 py-2.5 rounded-xl border border-stone-200 bg-white hover:border-champagne-500 active:bg-stonecream transition-all flex items-center justify-between selected" data-value="Comprehensive Check &amp; 3D Scan" type="button">
+<span>✨ Checkup &amp; Scan</span>
+<span class="text-[10px] text-stone-400 font-mono">$150</span>
+</button>
+<button class="treatment-pill text-left px-3 py-2.5 rounded-xl border border-stone-200 bg-white hover:border-champagne-500 active:bg-stonecream transition-all flex items-center justify-between" data-value="Aesthetic Smile Consult" type="button">
+<span>💎 Smile Consult</span>
+<span class="text-[10px] text-stone-400 font-mono">Complimentary</span>
+</button>
+<button class="treatment-pill text-left px-3 py-2.5 rounded-xl border border-stone-200 bg-white hover:border-champagne-500 active:bg-stonecream transition-all flex items-center justify-between" data-value="Laser Teeth Whitening" type="button">
+<span>⚡ Laser Whitening</span>
+<span class="text-[10px] text-stone-400 font-mono">$399</span>
+</button>
+<button class="treatment-pill text-left px-3 py-2.5 rounded-xl border border-stone-200 bg-white hover:border-champagne-500 active:bg-stonecream transition-all flex items-center justify-between" data-value="Urgent Tooth Relief" type="button">
+<span>🚨 Urgent Care</span>
+<span class="text-[10px] text-amber-600 font-medium">Same-Day</span>
+</button>
+</div>
+</div>
+<!-- Time Selector -->
+<div>
+<label class="block text-xs font-semibold text-stone-700 mb-1.5 uppercase tracking-wider text-[10px]">2. Preferred Arrival Window</label>
+<div class="grid grid-cols-3 gap-2 text-xs text-center font-medium">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="slot" type="radio" value="Tomorrow 10:15 AM"/>
+<div class="p-2 rounded-xl border border-stone-200 bg-white peer-checked:border-noir peer-checked:bg-noir peer-checked:text-champagne-300 transition-all">
+<span class="block font-bold">Tomorrow</span>
+<span class="text-[11px] opacity-80">10:15 AM</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="slot" type="radio" value="Thursday 2:30 PM"/>
+<div class="p-2 rounded-xl border border-stone-200 bg-white peer-checked:border-noir peer-checked:bg-noir peer-checked:text-champagne-300 transition-all">
+<span class="block font-bold">Thursday</span>
+<span class="text-[11px] opacity-80">2:30 PM</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="slot" type="radio" value="Friday 9:00 AM"/>
+<div class="p-2 rounded-xl border border-stone-200 bg-white peer-checked:border-noir peer-checked:bg-noir peer-checked:text-champagne-300 transition-all">
+<span class="block font-bold">Friday</span>
+<span class="text-[11px] opacity-80">9:00 AM</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Patient Contact -->
+<div class="space-y-2">
+<label class="block text-xs font-semibold text-stone-700 uppercase tracking-wider text-[10px]">3. Contact &amp; Insurance</label>
+<div class="grid grid-cols-2 gap-2">
+<input class="w-full text-xs rounded-xl border-stone-200 focus:border-noir focus:ring-noir/20 py-2.5 px-3 bg-white" id="expressName" placeholder="Full Name" required="" type="text"/>
+<input class="w-full text-xs rounded-xl border-stone-200 focus:border-noir focus:ring-noir/20 py-2.5 px-3 bg-white" id="expressPhone" placeholder="Mobile (for SMS confirmation)" required="" type="tel"/>
+</div>
+<div class="relative">
+<select class="w-full text-xs rounded-xl border-stone-200 focus:border-noir focus:ring-noir/20 py-2 px-3 bg-white text-stone-600" id="expressInsurance">
+<option value="Delta Dental PPO">Delta Dental PPO (In-Network Direct Triage)</option>
+<option value="Aetna PPO">Aetna Dental PPO</option>
+<option value="Cigna Healthcare">Cigna Dental Advantage</option>
+<option value="MetLife PDP Plus">MetLife PDP Plus</option>
+<option value="Guardian">Guardian Any Doctor</option>
+<option value="Direct Private Pay">Direct Private Pay / Studio Membership</option>
+</select>
+</div>
+</div>
+<!-- Submit Button -->
+<button class="w-full mt-2 bg-noir hover:bg-forest-800 text-champagne-300 hover:text-white py-3.5 px-4 rounded-xl font-semibold text-xs uppercase tracking-wider transition-all duration-200 shadow-md flex items-center justify-center gap-2" id="btnExpressReserve" type="submit">
+<span>Hold My Studio Suite</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<div class="hidden p-3 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-xs text-center animate-fade-in" id="bookingConfirmationAlert">
+                ✓ Reservation held! Our concierge will text you your digital check-in packet in moments.
+              </div>
+<div class="flex items-center justify-center gap-4 text-[11px] text-stone-400 pt-1 font-medium">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-champagne-600">verified_user</span>
+                  HIPAA Compliant
+                </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-champagne-600">lock</span>
+                  No Payment Required Today
+                </span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= SECTION 2: THE APPOINTMENT EXPERIENCE ================= -->
+<section class="py-24 bg-white border-b border-stone-200" id="experience">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="max-w-2xl mx-auto text-center mb-16">
+<span class="text-[11px] font-bold tracking-[0.25em] text-champagne-600 uppercase block mb-2">The Sanctuary Standard</span>
+<h2 class="font-serif text-3xl sm:text-4xl text-noir tracking-tight">How visits should always feel</h2>
+<p class="text-stone-500 text-sm mt-3 leading-relaxed">
+          We rebuilt the entire dental journey around sensory calmness, biological precision, and respectful pace.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+<!-- Step 1 -->
+<div class="bg-alabaster p-8 rounded-3xl border border-stone-200 hover:border-champagne-500/60 transition-all duration-300 relative group">
+<span class="font-serif text-5xl text-stone-300 font-light block mb-4 group-hover:text-champagne-500 transition-colors">01</span>
+<div class="w-10 h-10 rounded-2xl bg-noir text-champagne-400 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[20px]">view_in_ar</span>
+</div>
+<h3 class="font-serif text-xl font-semibold text-noir mb-2">Digital Triage &amp; 3D Scan</h3>
+<p class="text-stone-600 text-xs sm:text-sm leading-relaxed">
+            Eliminating uncomfortable alginate molds. Our 60-second intraoral laser creates millimeter-precise 3D scans of your bite and soft tissue in true color.
+          </p>
+<div class="mt-6 pt-4 border-t border-stone-200/80 text-[11px] text-champagne-600 font-semibold tracking-wider uppercase">
+            Zero Radiation • Live Visuals
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="bg-alabaster p-8 rounded-3xl border border-stone-200 hover:border-champagne-500/60 transition-all duration-300 relative group">
+<span class="font-serif text-5xl text-stone-300 font-light block mb-4 group-hover:text-champagne-500 transition-colors">02</span>
+<div class="w-10 h-10 rounded-2xl bg-noir text-champagne-400 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[20px]">spa</span>
+</div>
+<h3 class="font-serif text-xl font-semibold text-noir mb-2">Calm, Private Suites</h3>
+<p class="text-stone-600 text-xs sm:text-sm leading-relaxed">
+            Settle into ergonomic memory-foam chairs, noise-canceling Bowers &amp; Wilkins headsets, ceiling-mounted streaming screens, and gentle localized numbness protocols.
+          </p>
+<div class="mt-6 pt-4 border-t border-stone-200/80 text-[11px] text-champagne-600 font-semibold tracking-wider uppercase">
+            Aromatherapeutic Air • Whisper Motors
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="bg-alabaster p-8 rounded-3xl border border-stone-200 hover:border-champagne-500/60 transition-all duration-300 relative group">
+<span class="font-serif text-5xl text-stone-300 font-light block mb-4 group-hover:text-champagne-500 transition-colors">03</span>
+<div class="w-10 h-10 rounded-2xl bg-noir text-champagne-400 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<h3 class="font-serif text-xl font-semibold text-noir mb-2">Transparent Longevity Care</h3>
+<p class="text-stone-600 text-xs sm:text-sm leading-relaxed">
+            No fear-mongering treatment plans. Receive a personalized digital dashboard illustrating prioritized health vs. elective cosmetic options with fixed pricing.
+          </p>
+<div class="mt-6 pt-4 border-t border-stone-200/80 text-[11px] text-champagne-600 font-semibold tracking-wider uppercase">
+            Itemized Clarity • Digital Records
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= SECTION 3: CLINICAL DIRECTOR SPOTLIGHT ================= -->
+<section class="py-24 bg-stonecream/60 border-b border-stone-200" id="doctor">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Doctor Portrait & Badges -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md">
+<div class="aspect-[4/5] rounded-3xl overflow-hidden border border-stone-300 shadow-2xl relative">
+<img alt="Dr. Elena Vance DDS" class="w-full h-full object-cover grayscale-[15%] contrast-[1.05]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4f6xdCDRRT4AvARJczTOWREuWEypX8K295DtWoD730OCj7pP4pQM9YjsZB8RiWkFNCdE84awNcsIGrpzpS8OdK64RyyT6XOdJhXc6nPM0jtxucJQEyJXNWl4GMUnw6jfLDHtPq5n4lbSeXTMYdurduNK6y2D76HB2EfjxCHpuJ3AfUPIzoi3pv-Ogp5unrYfRTB4MzuFOpqnwRdFoTqXNvpJT2R_cLJ0YsXBXbBp3pKT9VkquJM9s"/>
+<div class="absolute inset-0 bg-gradient-to-t from-noir/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-white">
+<p class="font-serif text-2xl font-light">Dr. Elena Vance, DDS, FICOI</p>
+<p class="text-xs text-champagne-300 tracking-wider uppercase mt-0.5">Founding Clinical Director • Tribeca Studio</p>
+</div>
+</div>
+<!-- Luxury credential badge -->
+<div class="absolute -top-4 -right-4 bg-white border border-stone-200 rounded-2xl p-4 shadow-lg text-center hidden sm:block">
+<span class="block font-serif text-2xl font-bold text-noir">15+</span>
+<span class="text-[10px] tracking-wider uppercase text-stone-500 font-semibold">Years Clinical Master</span>
+</div>
+</div>
+</div>
+<!-- Bio & Philosophy -->
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 text-xs font-bold tracking-[0.2em] text-champagne-600 uppercase">
+<span>Leadership &amp; Philosophy</span>
+</div>
+<h2 class="font-serif text-3xl sm:text-5xl text-noir tracking-tight font-normal leading-tight">
+            "True aesthetic dentistry does not look done. It preserves biological vitality and restores natural harmony."
+          </h2>
+<p class="text-stone-600 text-sm sm:text-base leading-relaxed">
+            Dr. Vance completed her doctoral surgical training at Columbia University College of Dental Medicine, followed by advanced surgical fellowship honors at the International Congress of Oral Implantologists. She specializes in minimally invasive microscopic veneer artistry, bio-emulative composite restorations, and complex full-arch smile rehabilitations.
+          </p>
+<!-- Accreditations & Specialties Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2">
+<div class="p-3 bg-white rounded-xl border border-stone-200">
+<span class="block text-xs font-bold text-stone-900">Columbia University</span>
+<span class="text-[11px] text-stone-500">Doctor of Dental Surgery</span>
+</div>
+<div class="p-3 bg-white rounded-xl border border-stone-200">
+<span class="block text-xs font-bold text-stone-900">FICOI Fellow</span>
+<span class="text-[11px] text-stone-500">Intl Congress of Implantologists</span>
+</div>
+<div class="p-3 bg-white rounded-xl border border-stone-200">
+<span class="block text-xs font-bold text-stone-900">Invisalign Diamond</span>
+<span class="text-[11px] text-stone-500">Top 1% Provider in NYC</span>
+</div>
+</div>
+<!-- Signature block -->
+<div class="pt-4 flex items-center gap-6">
+<div class="font-serif italic text-2xl text-stone-800 tracking-wider">
+              Elena Vance, DDS
+            </div>
+<div class="h-6 w-px bg-stone-300"></div>
+<div class="text-xs text-stone-500">
+              Board Certified • American Academy of Cosmetic Dentistry (AACD)
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= SECTION 4: TRANSPARENT TREATMENT & PRICING MENU ================= -->
+<section class="py-24 bg-white border-b border-stone-200" id="treatments">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<span class="text-[11px] font-bold tracking-[0.25em] text-champagne-600 uppercase block mb-2">Clarity Without Secrets</span>
+<h2 class="font-serif text-3xl sm:text-4xl text-noir tracking-tight">Curated Studio Offerings</h2>
+</div>
+<p class="text-stone-500 text-xs sm:text-sm max-w-md">
+          Transparent clinical fees. All treatments are backed by our 5-year structural warranty on restorative craftsmanship.
+        </p>
+</div>
+<!-- Treatment Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Tier 1: Preventative -->
+<div class="bg-alabaster rounded-3xl p-6 border border-stone-200 flex flex-col justify-between hover:border-noir transition-all duration-300">
+<div>
+<span class="text-[10px] tracking-wider uppercase font-semibold text-stone-500 block mb-2">Foundation Health</span>
+<h3 class="font-serif text-xl font-bold text-noir mb-2">Bespoke Cleanse &amp; Diagnostic</h3>
+<p class="text-xs text-stone-600 leading-relaxed mb-6">
+              Gentle ultrasonic airflow hygiene, digital low-radiation diagnostics, cancer screening, and fluoride polish.
+            </p>
+<div class="mb-6">
+<span class="text-2xl font-serif font-bold text-noir">$150</span>
+<span class="text-stone-400 text-xs ml-1 font-sans">/ or 100% In-Network PPO</span>
+</div>
+<ul class="text-xs space-y-2 text-stone-600">
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> 60-Minute Private Session</li>
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> 3D Intraoral Occlusion Scan</li>
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> Custom Enamel Care Guide</li>
+</ul>
+</div>
+<button class="mt-8 w-full py-2.5 rounded-full border border-stone-300 text-stone-800 text-xs font-semibold hover:bg-noir hover:text-champagne-300 transition-all uppercase tracking-wider" onclick="scrollToReserve('Comprehensive Check &amp; 3D Scan')">
+            Select Offering
+          </button>
+</div>
+<!-- Tier 2: Veneers (Featured) -->
+<div class="bg-noir text-white rounded-3xl p-6 border border-champagne-500/40 flex flex-col justify-between relative shadow-xl transform lg:-translate-y-2">
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-champagne-500 text-forest-950 font-bold text-[9px] uppercase tracking-widest px-3 py-0.5 rounded-full">
+            Flagship Specialization
+          </div>
+<div>
+<span class="text-[10px] tracking-wider uppercase font-semibold text-champagne-300 block mb-2">Cosmetic Artistry</span>
+<h3 class="font-serif text-xl font-bold text-white mb-2">Handmade Porcelain Veneers</h3>
+<p class="text-xs text-stone-300 leading-relaxed mb-6">
+              Ultra-thin feldspathic porcelain crafted layer-by-layer to match your facial symmetry and optical warmth.
+            </p>
+<div class="mb-6">
+<span class="text-2xl font-serif font-bold text-champagne-300">From $1,450</span>
+<span class="text-stone-400 text-xs ml-1 font-sans">/ per tooth</span>
+</div>
+<ul class="text-xs space-y-2 text-stone-300">
+<li class="flex items-center gap-2"><span class="text-champagne-400 text-sm">✓</span> 3D Digital Smile Mockup</li>
+<li class="flex items-center gap-2"><span class="text-champagne-400 text-sm">✓</span> Zero or Minimal Tooth Prep</li>
+<li class="flex items-center gap-2"><span class="text-champagne-400 text-sm">✓</span> 10-Year Craftsmanship Guarantee</li>
+</ul>
+</div>
+<button class="mt-8 w-full py-2.5 rounded-full bg-champagne-500 text-forest-950 text-xs font-bold hover:bg-white transition-all uppercase tracking-wider" onclick="scrollToReserve('Aesthetic Smile Consult')">
+            Consult With Dr. Vance
+          </button>
+</div>
+<!-- Tier 3: Invisalign Diamond -->
+<div class="bg-alabaster rounded-3xl p-6 border border-stone-200 flex flex-col justify-between hover:border-noir transition-all duration-300">
+<div>
+<span class="text-[10px] tracking-wider uppercase font-semibold text-stone-500 block mb-2">Orthodontic Precision</span>
+<h3 class="font-serif text-xl font-bold text-noir mb-2">Invisalign® Diamond Alignment</h3>
+<p class="text-xs text-stone-600 leading-relaxed mb-6">
+              Predictable clear aligner therapy designed for adults. Discreet, painless, and monitored digitally between visits.
+            </p>
+<div class="mb-6">
+<span class="text-2xl font-serif font-bold text-noir">$3,800 – $5,400</span>
+<span class="text-stone-400 text-xs ml-1 font-sans">/ complete</span>
+</div>
+<ul class="text-xs space-y-2 text-stone-600">
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> Virtual AI Check-ins</li>
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> Complimentary Whitening Gel</li>
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> Retainers Included</li>
+</ul>
+</div>
+<button class="mt-8 w-full py-2.5 rounded-full border border-stone-300 text-stone-800 text-xs font-semibold hover:bg-noir hover:text-champagne-300 transition-all uppercase tracking-wider" onclick="scrollToReserve('Aesthetic Smile Consult')">
+            Explore Options
+          </button>
+</div>
+<!-- Tier 4: Same-Day Emergency -->
+<div class="bg-alabaster rounded-3xl p-6 border border-stone-200 flex flex-col justify-between hover:border-noir transition-all duration-300">
+<div>
+<span class="text-[10px] tracking-wider uppercase font-semibold text-amber-700 block mb-2">Rapid Relief</span>
+<h3 class="font-serif text-xl font-bold text-noir mb-2">Same-Day Emergency Triage</h3>
+<p class="text-xs text-stone-600 leading-relaxed mb-6">
+              Immediate comfort for cracked teeth, sudden toothaches, or lost crowns in our dedicated rapid-access chair.
+            </p>
+<div class="mb-6">
+<span class="text-2xl font-serif font-bold text-noir">$190</span>
+<span class="text-stone-400 text-xs ml-1 font-sans">/ emergency exam + imaging</span>
+</div>
+<ul class="text-xs space-y-2 text-stone-600">
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> Walk-in or 60-min window</li>
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> Immediate local anesthesia</li>
+<li class="flex items-center gap-2"><span class="text-emerald-600 text-sm">✓</span> Direct Pharmacy Coordination</li>
+</ul>
+</div>
+<button class="mt-8 w-full py-2.5 rounded-full bg-stone-200 hover:bg-noir hover:text-champagne-300 text-stone-800 text-xs font-semibold transition-all uppercase tracking-wider" onclick="scrollToReserve('Urgent Tooth Relief')">
+            Request Emergency Slot
+          </button>
+</div>
+</div>
+<!-- Financial footnote -->
+<div class="mt-12 text-center text-xs text-stone-500 max-w-xl mx-auto flex items-center justify-center gap-6">
+<span>Flexible 0% APR via Cherry &amp; CareCredit</span>
+<span>•</span>
+<span>HSA/FSA Eligible</span>
+<span>•</span>
+<span>Itemized Claims Submitted On Your Behalf</span>
+</div>
+</div>
+</section>
+<!-- ================= SECTION 5: REAL PATIENT TRANSFORMATIONS ================= -->
+<section class="py-24 bg-stonecream/40 border-b border-stone-200" id="reviews">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-[11px] font-bold tracking-[0.25em] text-champagne-600 uppercase block mb-2">Verified Testimonials</span>
+<h2 class="font-serif text-3xl sm:text-4xl text-noir tracking-tight">The difference in detail</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review 1 -->
+<div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm flex flex-col justify-between">
+<div class="space-y-4">
+<div class="text-amber-500 text-sm">★★★★★</div>
+<p class="font-serif italic text-stone-800 text-base leading-relaxed">
+              "I avoided the dentist for nearly 7 years due to childhood trauma. Walking into Bright Smile felt more like checking into The Greenwich Hotel. Dr. Vance didn't judge me once; she explained every step softly."
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-stone-100 flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-champagne-300 text-noir font-bold text-xs flex items-center justify-center">
+              MR
+            </div>
+<div>
+<p class="text-xs font-bold text-noir">Marcus Reynolds</p>
+<p class="text-[11px] text-stone-400">Tribeca • Porcelain Restorations</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm flex flex-col justify-between">
+<div class="space-y-4">
+<div class="text-amber-500 text-sm">★★★★★</div>
+<p class="font-serif italic text-stone-800 text-base leading-relaxed">
+              "Their zero-wait guarantee is 100% authentic. As a working mother and partner at a law firm, punctuality is paramount. In the chair at 8:00 AM sharp, finished by 8:50 AM with zero stress."
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-stone-100 flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-noir text-champagne-300 font-bold text-xs flex items-center justify-center">
+              SC
+            </div>
+<div>
+<p class="text-xs font-bold text-noir">Sophia Chen</p>
+<p class="text-[11px] text-stone-400">Financial District • Invisalign</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm flex flex-col justify-between">
+<div class="space-y-4">
+<div class="text-amber-500 text-sm">★★★★★</div>
+<p class="font-serif italic text-stone-800 text-base leading-relaxed">
+              "The upfront pricing transparency was refreshing. They printed my estimated Delta Dental coverage before touching a tool. Zero hidden fees, world-class veneer outcome."
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-stone-100 flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-forest-800 text-white font-bold text-xs flex items-center justify-center">
+              DL
+            </div>
+<div>
+<p class="text-xs font-bold text-noir">David Lindqvist</p>
+<p class="text-[11px] text-stone-400">SoHo • Aesthetic Smile Design</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= FOOTER ================= -->
+<footer class="bg-noir text-stone-300 py-16 border-t border-forest-800">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-forest-800/80">
+<div class="space-y-4 md:col-span-1">
+<span class="font-serif text-2xl text-white font-normal block">BRIGHT SMILE</span>
+<p class="text-xs text-stone-400 leading-relaxed">
+            Private Oral Health Studio &amp; Cosmetic Architecture. Tribeca, New York.
+          </p>
+<div class="text-xs text-champagne-400">
+            NY State Dental License #058291
+          </div>
+</div>
+<div>
+<h4 class="text-xs uppercase font-semibold text-white tracking-widest mb-3">Sanctuary Hours</h4>
+<p class="text-xs text-stone-400 leading-loose">
+            Monday – Thursday: 7:30 AM – 7:00 PM<br/>
+            Friday: 8:00 AM – 5:00 PM<br/>
+            Saturday: By Private Appointment<br/>
+            Sunday: Emergency On-Call
+          </p>
+</div>
+<div>
+<h4 class="text-xs uppercase font-semibold text-white tracking-widest mb-3">Tribeca Studio</h4>
+<p class="text-xs text-stone-400 leading-loose">
+            481 Greenwich Street, Suite 300<br/>
+            New York, NY 10013<br/>
+            Direct: <a class="text-champagne-400 underline" href="tel:18005553284">(800) 555-3284</a><br/>
+            concierge@brightsmileprivate.com
+          </p>
+</div>
+<div>
+<h4 class="text-xs uppercase font-semibold text-white tracking-widest mb-3">Accreditations</h4>
+<p class="text-xs text-stone-400 leading-relaxed mb-3">
+            American Academy of Cosmetic Dentistry • International Congress of Oral Implantologists • ADA &amp; NYS Dental Association.
+          </p>
+<span class="inline-block px-3 py-1 bg-forest-900 border border-forest-800 rounded-full text-[10px] text-champagne-300">
+            ★ Top Dental Studio NYC 2024
+          </span>
+</div>
+</div>
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+<p>© 2025 Bright Smile Dental Studio NYC. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-stone-300" href="#">Privacy Notice</a>
+<a class="hover:text-stone-300" href="#">Patient Bill of Rights</a>
+<a class="hover:text-stone-300" href="#">Accessibility</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- ================= INTERACTIVE BESPOKE CLINICAL CONCIERGE (STICKY DRAWER/WIDGET) ================= -->
+<!-- Trigger Button -->
+<div class="fixed bottom-6 right-6 z-50 transition-all duration-300" id="conciergeTrigger">
+<button class="group flex items-center gap-3 bg-noir hover:bg-forest-800 text-white pl-4 pr-5 py-3.5 rounded-full shadow-2xl border border-champagne-500/40 hover:scale-105 active:scale-95 transition-all" id="openConciergeBtn">
+<div class="relative">
+<div class="w-8 h-8 rounded-full bg-champagne-500/20 flex items-center justify-center text-champagne-300 font-serif text-base">
+          BS
+        </div>
+<span class="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-noir"></span>
+</div>
+<div class="text-left leading-tight hidden xs:block">
+<span class="block text-xs font-semibold tracking-wide text-champagne-300">Clinical Concierge</span>
+<span class="block text-[10px] text-stone-300">Live Insurance &amp; Booking</span>
+</div>
+</button>
+</div>
+<!-- Concierge Drawer / Panel -->
+<div class="fixed bottom-6 right-6 left-6 sm:left-auto sm:w-[410px] z-50 bg-white rounded-3xl shadow-2xl border border-stone-200 overflow-hidden flex flex-col transition-all duration-300 transform scale-95 opacity-0 pointer-events-none" id="conciergeDrawer" style="height: 580px; max-height: calc(100vh - 48px);">
+<!-- Header -->
+<div class="bg-noir text-white p-4 sm:p-5 flex items-center justify-between shrink-0 border-b border-forest-800">
+<div class="flex items-center gap-3">
+<div class="relative">
+<div class="w-10 h-10 rounded-full bg-forest-800 border border-champagne-500/30 flex items-center justify-center font-serif text-champagne-300 text-sm font-semibold">
+            BS
+          </div>
+<span class="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-400 border-2 border-noir rounded-full"></span>
+</div>
+<div>
+<h4 class="font-serif text-base font-semibold text-white tracking-wide">Tribeca Clinical Desk</h4>
+<p class="text-[11px] text-champagne-300 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Private Concierge Online
+          </p>
+</div>
+</div>
+<button aria-label="Close Concierge" class="text-stone-400 hover:text-white p-1 rounded-lg hover:bg-white/10 transition-colors" id="closeConciergeBtn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Quick Action Chips -->
+<div class="bg-stonecream/60 border-b border-stone-200/80 px-3.5 py-2.5 flex items-center gap-2 overflow-x-auto text-[11px] shrink-0">
+<button class="concierge-chip whitespace-nowrap bg-white border border-stone-200 text-stone-700 hover:border-noir hover:text-noir px-3 py-1.5 rounded-full transition-colors font-medium">
+        💳 Check My Insurance
+      </button>
+<button class="concierge-chip whitespace-nowrap bg-white border border-stone-200 text-stone-700 hover:border-noir hover:text-noir px-3 py-1.5 rounded-full transition-colors font-medium">
+        ⚡ Next Available Slot
+      </button>
+<button class="concierge-chip whitespace-nowrap bg-white border border-stone-200 text-stone-700 hover:border-noir hover:text-noir px-3 py-1.5 rounded-full transition-colors font-medium">
+        💎 Veneer Cost &amp; Preview
+      </button>
+</div>
+<!-- Messages Container -->
+<div class="flex-1 p-4 overflow-y-auto space-y-3.5 bg-alabaster/70 text-xs" id="conciergeMessages">
+<div class="text-center my-1">
+<span class="text-[10px] uppercase font-bold tracking-widest text-stone-400 bg-stonecream px-2.5 py-0.5 rounded-full border border-stone-200/60">Tribeca Concierge</span>
+</div>
+<!-- Welcome Bubble -->
+<div class="flex items-start gap-2.5 max-w-[90%]">
+<div class="w-7 h-7 rounded-full bg-noir text-champagne-400 flex items-center justify-center font-serif text-xs shrink-0 mt-0.5">
+          BS
+        </div>
+<div class="bg-white p-3.5 rounded-2xl rounded-tl-xs border border-stone-200 shadow-xs text-stone-700 leading-relaxed">
+          Welcome to Bright Smile Dental Studio. I am your direct liaison to Dr. Vance's clinical team. Would you like to check in-network coverage, view this week's private suite openings, or ask a treatment question?
+        </div>
+</div>
+</div>
+<!-- Message Form -->
+<form class="p-3 bg-white border-t border-stone-200 shrink-0" id="conciergeForm">
+<div class="flex items-center gap-2 bg-stonecream/80 rounded-2xl p-1.5 border border-stone-200 focus-within:border-noir focus-within:bg-white transition-all">
+<input autocomplete="off" class="flex-1 bg-transparent px-3 py-1.5 text-xs text-stone-800 placeholder-stone-400 focus:outline-none" id="conciergeInput" placeholder="Ask a question or request an appointment..." type="text"/>
+<button aria-label="Send Message" class="bg-noir hover:bg-forest-800 text-champagne-300 hover:text-white p-2.5 rounded-xl transition-colors shrink-0" type="submit">
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<p class="text-[10px] text-center text-stone-400 mt-1.5">Direct encrypted HIPAA transmission • Immediate reply</p>
+</form>
+</div>
+<!-- ================= JAVASCRIPT ================= -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Concierge Toggle Logic
+      const conciergeTrigger = document.getElementById('conciergeTrigger');
+      const openConciergeBtn = document.getElementById('openConciergeBtn');
+      const closeConciergeBtn = document.getElementById('closeConciergeBtn');
+      const conciergeDrawer = document.getElementById('conciergeDrawer');
+      const conciergeForm = document.getElementById('conciergeForm');
+      const conciergeInput = document.getElementById('conciergeInput');
+      const conciergeMessages = document.getElementById('conciergeMessages');
+      const chips = document.querySelectorAll('.concierge-chip');
+      const treatmentPills = document.querySelectorAll('.treatment-pill');
+
+      function openDrawer() {
+        conciergeDrawer.classList.remove('scale-95', 'opacity-0', 'pointer-events-none');
+        conciergeDrawer.classList.add('scale-100', 'opacity-100', 'pointer-events-auto');
+        conciergeTrigger.classList.add('scale-0', 'opacity-0', 'pointer-events-none');
+        setTimeout(() => conciergeInput.focus(), 200);
+      }
+
+      function closeDrawer() {
+        conciergeDrawer.classList.add('scale-95', 'opacity-0', 'pointer-events-none');
+        conciergeDrawer.classList.remove('scale-100', 'opacity-100', 'pointer-events-auto');
+        conciergeTrigger.classList.remove('scale-0', 'opacity-0', 'pointer-events-none');
+      }
+
+      openConciergeBtn.addEventListener('click', openDrawer);
+      closeConciergeBtn.addEventListener('click', closeDrawer);
+
+      // Treatment pill toggle in Express card
+      treatmentPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          treatmentPills.forEach(p => p.classList.remove('border-noir', 'bg-stonecream', 'ring-1', 'ring-noir'));
+          pill.classList.add('border-noir', 'bg-stonecream', 'ring-1', 'ring-noir');
+        });
+      });
+
+      // Quick Chips Handler
+      chips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          const text = chip.innerText.replace(/^[^\w\s]+/, '').trim();
+          sendUserMessage(text);
+          respondToConcierge(text);
+        });
+      });
+
+      // Form submit in Concierge
+      conciergeForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const text = conciergeInput.value.trim();
+        if (!text) return;
+        sendUserMessage(text);
+        conciergeInput.value = '';
+        respondToConcierge(text);
+      });
+
+      function sendUserMessage(text) {
+        const bubble = `
+          <div class="flex items-start justify-end gap-2 max-w-[88%] ml-auto">
+            <div class="bg-noir text-champagne-300 p-3 rounded-2xl rounded-tr-xs shadow-xs leading-relaxed break-words">
+              ${escapeHtml(text)}
+            </div>
+          </div>
+        `;
+        conciergeMessages.insertAdjacentHTML('beforeend', bubble);
+        conciergeMessages.scrollTop = conciergeMessages.scrollHeight;
+      }
+
+      function respondToConcierge(query) {
+        const q = query.toLowerCase();
+        let reply = "Thank you. Our Tribeca practice coordinator will verify your request immediately. Would you like us to confirm this over text message or a brief call?";
+
+        if (q.includes('insurance') || q.includes('check my insurance')) {
+          reply = "We are in-network with Delta Dental, Aetna, Cigna, MetLife, and Guardian PPO plans. If you type your Member ID and DOB, our billing team can provide an exact complimentary pre-estimate before your visit.";
+        } else if (q.includes('slot') || q.includes('available') || q.includes('book') || q.includes('reserve')) {
+          reply = "We currently have private suite availability tomorrow at 10:15 AM with Dr. Vance, and Thursday at 2:30 PM. Would you like to reserve either of those?";
+        } else if (q.includes('veneer') || q.includes('cost') || q.includes('price')) {
+          reply = "Handmade porcelain veneers start at $1,450 per tooth, which includes high-resolution 3D facial scans, mockups, and our 10-year warranty. We also offer 0% APR financing starting around $140/mo.";
+        } else if (q.includes('pain') || q.includes('emergency')) {
+          reply = "⚠️ For urgent emergencies or acute pain, please call our Tribeca line directly at (800) 555-3284 for immediate triage.";
+        }
+
+        // Typing indicator
+        const typingId = 'typing-' + Date.now();
+        const typingHTML = `
+          <div id="${typingId}" class="flex items-start gap-2.5 max-w-[88%]">
+            <div class="w-7 h-7 rounded-full bg-noir text-champagne-400 flex items-center justify-center font-serif text-xs shrink-0 mt-0.5">
+              BS
+            </div>
+            <div class="bg-white p-3 rounded-2xl rounded-tl-xs border border-stone-200 shadow-xs text-stone-500 flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-stone-400 animate-bounce"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-stone-400 animate-bounce [animation-delay:0.15s]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-stone-400 animate-bounce [animation-delay:0.3s]"></span>
+            </div>
+          </div>
+        `;
+        conciergeMessages.insertAdjacentHTML('beforeend', typingHTML);
+        conciergeMessages.scrollTop = conciergeMessages.scrollHeight;
+
+        setTimeout(() => {
+          const el = document.getElementById(typingId);
+          if (el) el.remove();
+          const assistantHTML = `
+            <div class="flex items-start gap-2.5 max-w-[90%]">
+              <div class="w-7 h-7 rounded-full bg-noir text-champagne-400 flex items-center justify-center font-serif text-xs shrink-0 mt-0.5">
+                BS
+              </div>
+              <div class="bg-white p-3.5 rounded-2xl rounded-tl-xs border border-stone-200 shadow-xs text-stone-700 leading-relaxed break-words">
+                ${reply}
+              </div>
+            </div>
+          `;
+          conciergeMessages.insertAdjacentHTML('beforeend', assistantHTML);
+          conciergeMessages.scrollTop = conciergeMessages.scrollHeight;
+        }, 750);
+      }
+
+      function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+      }
+
+      // Global navigation helper
+      window.scrollToReserve = function(serviceName) {
+        const target = document.getElementById('reservationSection');
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+          if (serviceName) {
+            treatmentPills.forEach(pill => {
+              if (pill.getAttribute('data-value') === serviceName) {
+                pill.click();
+              }
+            });
+          }
+        }
+      };
+
+      // Express Form submission logic
+      window.handleExpressSubmit = function() {
+        const name = document.getElementById('expressName').value;
+        const phone = document.getElementById('expressPhone').value;
+        const btn = document.getElementById('btnExpressReserve');
+        const alert = document.getElementById('bookingConfirmationAlert');
+        
+        btn.innerHTML = `<span class="material-symbols-outlined text-[16px] animate-spin">progress_activity</span> Securing Suite...`;
+        btn.disabled = true;
+
+        setTimeout(() => {
+          btn.innerHTML = `Suite Reserved`;
+          btn.classList.remove('bg-noir', 'hover:bg-forest-800');
+          btn.classList.add('bg-emerald-700');
+          alert.classList.remove('hidden');
+        }, 800);
+      };
+    });
+  </script>
+</body></html>

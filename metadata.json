@@ -1,0 +1,6 @@
+{
+  "name": "Bright Smile Dental Studio",
+  "description": "Bespoke Oral Health Studio & Cosmetic Architecture in Tribeca, New York with express suite reservations and real-time MongoDB clinical records.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
